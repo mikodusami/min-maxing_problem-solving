@@ -8,6 +8,8 @@
 # TRIGGERS SEEN (when and why we use it)
 
 - (inverting a binary tree): used to swap nodes level by level going down a binary tree.
+- (finding the max depth): although dfs suffices, you can also use bfs for this problem
+
 
 ----
 psuedo code:

@@ -2,12 +2,12 @@
 
 
 """
-# bfs pattern
+# dfs pattern
 # vertical search: Explores as far as possible along each branch before backtracking.
 ----
 # TRIGGERS SEEN (when and why we use it)
 - invert-binary-tree: used to swap nodes level by level going all the way to base and swapping
-
+- finding max depth of a tree: how far the tree goes down
 ----
 psuedo code (recursive):
 - Define a base case: If the current node is None, return a default value.
