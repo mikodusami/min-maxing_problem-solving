@@ -6,7 +6,8 @@
 # level order search: processes nodes level by level
 ----
 # TRIGGERS SEEN (when and why we use it)
-- invert-binary-tree: used to swap nodes level by level going down a binary tree.
+
+- (inverting a binary tree): used to swap nodes level by level going down a binary tree.
 
 ----
 psuedo code:
