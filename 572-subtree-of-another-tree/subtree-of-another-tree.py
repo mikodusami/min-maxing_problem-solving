@@ -11,8 +11,11 @@ class Solution:
         if not root:
             return False
 
+        # pre processing
         if self.sameTree(root, subRoot):
             return True
+        
+        # dfsing
         return (self.isSubtree(root.left, subRoot) or
                self.isSubtree(root.right, subRoot))
 
