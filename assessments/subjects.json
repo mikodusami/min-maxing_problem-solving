@@ -1,0 +1,141 @@
+[
+{
+"topic_name": "Simulation and Rule-Following",
+"skill_clusters": [
+"Translating plain English rules into sequential logic",
+"While and for loop control flow",
+"State tracking across steps",
+"Conditional branching per rule",
+"Termination condition detection",
+"Multi-step process simulation"
+],
+"num_problems": 20,
+"constraints": "All problems must be word problems written in plain prose. No LeetCode links. Each problem must describe a real-world process or protocol with explicit rules. Student must translate the rules into code without any pattern hints. Problems 1-7 easy, 8-14 medium, 15-20 hard. Difficulty increases by adding more rules, more edge cases, and more complex state to track. Reference problems: drone delivery protocol, warehouse sorting system, vending machine logic, traffic light sequencer."
+},
+{
+"topic_name": "String Parsing and Manipulation",
+"skill_clusters": [
+"Format conversion between string representations",
+"Splitting and joining on delimiters",
+"Substring extraction and indexing",
+"Edge case handling: leading zeros, mixed separators, empty strings",
+"String to number conversion and back",
+"Pattern matching without regex",
+"Multi-field record parsing"
+],
+"num_problems": 20,
+"constraints": "All problems wrapped in real-world scenarios: log parsing, time format conversion, command parsing, record extraction. No abstract string problems. Problems 1-7 involve single format conversion. Problems 8-14 involve multi-step parsing pipelines. Problems 15-20 involve parsing with validation, error handling, and edge cases. Reference problems: bus departure time parser, CSV record extractor, command string interpreter, timestamp normalizer."
+},
+{
+"topic_name": "Array Traversal and Aggregation",
+"skill_clusters": [
+"Single array iteration with per-element computation",
+"Parallel array traversal with zip",
+"Running max, min, sum, average",
+"Filtering elements by condition",
+"Index tracking during traversal",
+"Returning computed result with edge case handling",
+"Ratio and rate computation across paired arrays"
+],
+"num_problems": 15,
+"constraints": "All problems framed as business scenarios: product ratings, sensor readings, price comparisons, score calculations. Problems 1-5 involve single array aggregation. Problems 6-10 involve two parallel arrays. Problems 11-15 involve filtering plus aggregation with edge cases like empty arrays, zero denominators, and ties. Reference problems: max rating-price ratio, highest scoring student, sensor anomaly detection, best value product finder."
+},
+{
+"topic_name": "HashMap and Frequency Counting",
+"skill_clusters": [
+"Building frequency maps from arrays",
+"Lookup and membership testing in O(1)",
+"Grouping elements by a property",
+"Deduplication using sets and maps",
+"Counting distinct elements",
+"Finding most and least frequent elements",
+"Two-array intersection and difference using hashmaps"
+],
+"num_problems": 15,
+"constraints": "All problems framed as real scenarios: inventory tracking, user activity logs, word frequency in documents, product category grouping. Problems 1-5 are pure frequency counting. Problems 6-10 involve grouping and lookup. Problems 11-15 involve combining two data sources using hashmaps with edge cases. No abstract problems. Every problem must be translatable from a word problem with no pattern label given."
+},
+{
+"topic_name": "Sorting and Ranking",
+"skill_clusters": [
+"Sorting by single key",
+"Sorting by multiple keys with tiebreakers",
+"Custom comparator logic",
+"Returning top N elements after sort",
+"Rank assignment with dense and non-dense ranking",
+"Stable sort behavior and when it matters",
+"Sorting objects and records not just primitives"
+],
+"num_problems": 15,
+"constraints": "All problems wrapped in business scenarios: leaderboards, product rankings, employee performance sorting, race results. Problems 1-5 involve single-key sorting and returning top N. Problems 6-10 involve multi-key sorting with tiebreakers. Problems 11-15 involve rank assignment and handling ties with dense vs non-dense ranking. Every problem written as a word problem with no hints about sort direction or tiebreaker unless stated in the spec."
+},
+{
+"topic_name": "Matrix and Grid Manipulation",
+"skill_clusters": [
+"Row and column swapping",
+"Matrix rotation clockwise and counterclockwise",
+"Row and column reversal",
+"Sequential command parsing and execution on a grid",
+"Transpose operation",
+"Submatrix extraction",
+"In-place modification vs new matrix creation"
+],
+"num_problems": 15,
+"constraints": "All problems framed as grid transformation scenarios: image processing, warehouse grid systems, spreadsheet operations, map rotation. Problems 1-5 involve single operations on a matrix. Problems 6-10 involve sequences of 3-5 operations applied in order. Problems 11-15 involve parsing a command string and applying operations dynamically with edge cases like non-square matrices and empty grids. Reference problem: matrix command parser."
+},
+{
+"topic_name": "Date and Time Arithmetic",
+"skill_clusters": [
+"Converting time strings to total minutes or seconds",
+"Computing differences between two timestamps",
+"Filtering events by time window",
+"Finding the most recent event before a given time",
+"Handling 24-hour vs 12-hour formats",
+"Day boundary and midnight wraparound",
+"Sorting and ranking events by time"
+],
+"num_problems": 15,
+"constraints": "All problems framed as scheduling or logistics scenarios: bus departures, meeting overlaps, delivery windows, shift scheduling. Problems 1-5 involve simple time conversion and difference. Problems 6-10 involve filtering and finding relative events. Problems 11-15 involve multi-step time pipelines with edge cases like midnight boundaries, ties, and no valid result conditions. Reference problem: minutes since last bus departure."
+},
+{
+"topic_name": "Sliding Window",
+"skill_clusters": [
+"Fixed-size window max and min sum",
+"Variable-size window expanding and contracting",
+"Longest substring or subarray meeting a condition",
+"Average over a rolling window",
+"Window with frequency tracking inside",
+"Identifying the window that optimizes a metric",
+"Translating business data window problems into sliding window logic"
+],
+"num_problems": 12,
+"constraints": "All problems framed as data analysis scenarios: rolling sales averages, network packet windows, sensor reading windows, activity streak detection. Problems 1-4 are fixed-size windows. Problems 5-8 are variable-size windows. Problems 9-12 require identifying which approach to use from the word problem alone with no hints. Every problem written as a plain prose scenario with no mention of sliding window."
+},
+{
+"topic_name": "Greedy Simulation",
+"skill_clusters": [
+"Making locally optimal choices at each step",
+"Advancing through a sequence with a pointer",
+"Tracking cumulative cost or distance",
+"Detecting when a greedy step terminates",
+"Sorting as a preprocessing step before greedy",
+"Multi-resource greedy allocation",
+"Recognizing greedy problems from word problem framing"
+],
+"num_problems": 12,
+"constraints": "All problems framed as logistics or resource allocation scenarios: delivery routing, charging station networks, task scheduling, fuel stop optimization. Problems 1-4 involve straightforward single-pass greedy. Problems 5-8 involve greedy with preprocessing. Problems 9-12 are harder scenarios where the greedy choice is non-obvious from the word problem and requires careful reading. Reference problem: drone delivery foot distance calculator."
+},
+{
+"topic_name": "OA Translation Drill",
+"skill_clusters": [
+"Identifying the underlying pattern from a word problem alone",
+"Mapping scenario keywords to data structures",
+"Distinguishing simulation from sorting from hashmap problems",
+"Stripping business language to find the computational core",
+"Writing the pattern identification before writing any code",
+"Handling deliberately misleading or verbose problem statements",
+"Time-pressured pattern identification under OA conditions"
+],
+"num_problems": 15,
+"constraints": "These are mixed problems with no category labels. Each problem is a word problem drawn from any of the above topic areas. The exercise for each problem is two steps: first write which pattern this is and why in one sentence, then write the solution. Problems are scored on correct pattern identification as much as correct solution. Problems span all difficulty levels and all topic areas unpredictably. This set should only be attempted after the individual topic sets above feel automatic."
+}
+]
